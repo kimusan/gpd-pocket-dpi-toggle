@@ -1,4 +1,8 @@
 #!/bin/bash
+####################################################################################################
+# simple script to toggle dpi using either xfconf-query (xfce) or xrandr.
+# Script is made by Kim Schulz <kim@schulz.dk> / https://github.com/kimusan) / https://schulz.kim
+####################################################################################################
 if [[ "x$1" == "x" ]]; then
 	echo "Please specify method to use (xrandr or xfce)"
 	exit 1
